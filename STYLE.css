@@ -1,0 +1,72 @@
+.block
+{
+display: grid;
+grid-template-columns: 25pc 5pc 60pc;
+height: 80pc;
+
+}
+body{
+    margin:0 px;
+    
+}
+.block1{
+background: rgb(42, 1, 227);
+padding: 60px;
+margin-left: 15%;
+margin-top: 5%;
+width: 230px;
+}
+.block2{
+    background: #f7ff03;
+    margin-top: 24%;
+    
+}
+.block3{
+    background: rgb(231, 247, 236);
+    margin-top: 2%;
+    margin-right: 1%;
+}
+.photo
+{
+border-radius: 50pc ;
+width: 175;
+margin: 1pc 1pc 1pc;
+border: solid 5px rgba(242, 255, 4, 0.959);
+height: 175px;
+}                   
+.name{
+    text-align: center;
+    color: black;
+    
+}
+.tableau{
+width: 100%;
+margin: 25px;
+}
+.profil-border-bottom{
+    border-bottom: dashed 2px black;
+}
+.tel{
+    text-align: left;
+    font-size: medium;
+}
+progress{
+    background-color: white;
+    border-radius: 0%;
+    margin: 2px 0;
+    appearance: none ;
+    padding: 1px;
+    width: 160px;
+    height: 10px;
+    
+}
+progress::-webkit-progress-bar{
+    background-color: white;
+
+}
+progress::-webkit-progress-value{
+    background-color: #f7ff03;
+}
+
+
+
